@@ -7,6 +7,6 @@
 
 @property (nonatomic, weak) MainScene *mainScene;
 
-- (void)gameOver:(int)score;
+- (void)showIntro;
 
 @end
