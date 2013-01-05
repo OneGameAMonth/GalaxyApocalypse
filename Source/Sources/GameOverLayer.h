@@ -3,13 +3,10 @@
 
 @class MainScene;
 
-/*
- * This is where all the action happens.
- */
-@interface GameLayer : CCLayer
+@interface GameOverLayer : CCLayer
 
 @property (nonatomic, weak) MainScene *mainScene;
 
-- (void)startGame;
+- (void)gameOver:(int)score;
 
 @end
